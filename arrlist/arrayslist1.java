@@ -12,6 +12,11 @@ public class arrayslist1 {
     for (int x  : l1) {
         System.out.println(x);
     }
+
+    l1.remove(0);
+    for (int x  : l1) {
+        System.out.println(x);
+    }
       
     }
 }
