@@ -19,6 +19,8 @@ public class arrayslist1 {
     // }
 
     System.out.println(l1.contains(11));
+    l1.set(4, 55);
+    System.out.println(l1);
       
     }
 }
