@@ -9,14 +9,16 @@ public class arrayslist1 {
        l1.add(13);
        l1.add(14);
        l1.add(15);
-    for (int x  : l1) {
-        System.out.println(x);
-    }
+    // for (int x  : l1) {
+    //     System.out.println(x);
+    // }
 
-    l1.remove(0);
-    for (int x  : l1) {
-        System.out.println(x);
-    }
+    // l1.remove(0);
+    // for (int x  : l1) {
+    //     System.out.println(x);
+    // }
+
+    System.out.println(l1.contains(11));
       
     }
 }
